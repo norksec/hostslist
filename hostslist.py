@@ -12,7 +12,7 @@ def main():
 
 	ip = args.ip
 	filename = args.filename
-	
+// adjusted file name	
 	domains = []
 	with open('top500.txt', 'r') as f:
 		domains = [l.strip() for l in f]
